@@ -1,0 +1,52 @@
+:host ::ng-deep,
+.p-tabview-nav {
+  justify-content: center;
+}
+
+:host ::ng-deep li .p-tabview-nav-link,
+.p-tabview-nav li .p-tabview-nav-link {
+  background: #141414;
+}
+
+:host ::ng-deep li.p-highlight .p-tabview-nav-link,
+.p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #141414;
+}
+
+.poster {
+  max-width: 100%;
+}
+
+.overview {
+  line-height: 1.5;
+}
+
+.stat {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.stat .label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.stat .value {
+  color: #FFD54F;
+}
+
+.actor {
+  padding: 10px;
+}
+
+.actor img {
+  width: 100%;
+}
+
+.actor span {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=movie.component.css.map */

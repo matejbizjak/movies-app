@@ -1,0 +1,84 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35rem;
+  position: relative;
+}
+
+.slider .slide {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: 35rem;
+}
+
+.slider .slide-bg {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.slider .slide-bg:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: "";
+  background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0) 100%);
+}
+
+.slider .slide-bg-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .slide-pane {
+  position: absolute;
+  width: 45%;
+  top: 5rem;
+  left: 5rem;
+}
+
+.slider .slide-pane .name {
+  font-size: 2.8rem;
+}
+
+.slider .slide-pane .meta {
+  font-size: 1.4rem;
+  color: #999;
+}
+
+.slider .slide-pane .meta .info {
+  display: flex;
+}
+
+.slider .slide-pane .meta .info > span:not(:last-child):after {
+  content: "|";
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+.slider .slide-pane .meta .info .rating {
+  display: flex;
+  align-items: center;
+}
+
+.slider .slide-pane .meta .info .rating .app-icon {
+  margin-right: 5px;
+  color: #d4af37;
+}
+
+.slider .slide-pane .meta .info .rating-value {
+  color: #fff;
+}
+
+.slider .slide-pane .description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=slider.component.css.map */

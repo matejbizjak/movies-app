@@ -1,0 +1,12 @@
+.genre-link {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FFD54F;
+  color: #141414;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=genres.component.css.map */
